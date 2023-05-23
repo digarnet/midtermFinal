@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sports</title>
+	</head>
+	
+	<style>
+  
+  body{
+  	
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  body > * { /*(greater than) > is a child selector that styles the immediate children.*/
+
+
+  background: #eee;
+  padding: 2rem;
+  text-align: center;
+  border: 5px solid white;
+}
+  .header{
+  	flex: 1 100%;
+    order: 1;
+    font-size:xxx-large;
+    font-family: impact;
+
+  }
+  
+  .footer{
+  	
+    flex: 1 100%;
+    order: 4;
+  	
+    
+  }
+  
+  .sidebar{
+  	
+    order: 3;
+    
+  }
+  
+  .main{
+  	
+    order: 2;
+  	
+  }
+  
+  @media screen and (max-width: 400px){
+  	body{
+  		 -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+    
+  }
+  
+  
+  
+ 
+  
+  </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header"><img src="./images/sportsvector.png"width="200" height="150"><br> SPORTS MARKETING</header></br> </header>
+<main class="main">
+  <p>One way of generating revenue for a sports franchise is through in-stadium advertising. Potentially 40,000 people will be putting their eyes on your product.This creates a demand for companies to advertise at live games inside of stadiums. You can see examples of this with giant billboards that can be seen on highways approaching the sports venue. From naming writes, such as “Barclays” center, a naming writes deal done with a bank. To the outfield wall at your favorite MLB or MILB ballpark, these in stadium ads can be seen inside and outside of sporting venues. The New York Mets do an example of relationship marketing for season ticket holders. For full or partial season ticket plans the Mets provide four free tickets to any available game in the form of ticket “Vouchers”. There is also a ticket exchange program which will allow a season ticket plan holder to exchange there tickets for a comparably valued game. This value is determined by the club and depends on a few factors some being the opponent, day of the week, and  time of day. This is one example I have seen the New York Mets doing for the 2023 season. The local media of a major sports city is also utilized as a free marketing tool. Some of these media outlets cover local teams on a daily basis. These media outlets consist of the local newspaper, tv networks and various regional media outlets. Local network news also has daily coverage of the local sports teams which can be viewed as an alternate form of advertisement.
+
+</p>
+  <img src="./images/mjgatorade.jpg"width="600" height="400">
+
+</main>
+<aside class="sidebar"><img src="./images/mets.png"width="300" height="200"><img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/giants/xea4dxjztzgl4mldqjdk"width="300" height="200"><img src="https://sportsfly.cbsistatic.com/fly-0474/bundles/sportsmediacss/images/core/superbowl-logo.svg"width="300" height="200"><img src="https://cdn.vox-cdn.com/thumbor/pWodVFt4XpopfPgfau4Ggjmrk1M=/0x0:700x548/1200x800/filters:focal(294x218:406x330)/cdn.vox-cdn.com/uploads/chorus_image/image/58523615/197decc9241986fcfd392c3b14d89012.0.png"width="200" height="200"><img src="https://library.sportingnews.com/2022-11/Football%20Verse%20Ad%20Nike.jpg"width="300" height="200"><img src="https://cdn.vox-cdn.com/thumbor/YKogTOtw1oT3x1eSePYqdCvSQAc=/1400x788/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/23706643/wbc2023a_copy.png"width="300" height="200">
+</aside>
+</aside>
+<footer class="footer"><img src="./images/sportsvector.png"width="200" height="150"></footer>
+<!-- partial -->
+  
+</body>
+</html>

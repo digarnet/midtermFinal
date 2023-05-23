@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Andre Ward</title>
+style>
+  
+  body{
+  	
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  body > * { /*(greater than) > is a child selector that styles the immediate children.*/
+
+
+  background: #eee;
+  padding: 2rem;
+  text-align: center;
+  border: 5px solid white;
+}
+  .header{
+  	flex: 1 100%;
+    order: 1;
+    
+  }
+  
+  .footer{
+  	
+    flex: 1 100%;
+    order: 4;
+  	
+    
+  }
+  
+  .sidebar{
+  	
+    order: 3;
+    
+  }
+  
+  .main{
+  	
+    order: 2;
+  	
+  }
+  
+  @media screen and (max-width: 400px){
+  	body{
+  		 -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+    
+  }
+  
+  
+  
+ 
+  
+  </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header class="header">Header <img src="http://placekitten.com/200/200"></header>
+<main class="main">Main
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique mollis metus auctor mattis. Cras vitae elit dolor. Morbi at blandit leo. Integer venenatis, ex quis bibendum sagittis, turpis nunc tristique lectus, ut varius leo lorem eget tellus. Nam cursus accumsan arcu, ut ultrices nulla fringilla quis. In hac habitasse platea dictumst. Pellentesque sit amet condimentum arcu, vel dapibus neque. Phasellus imperdiet orci at velit dapibus molestie. Duis ac placerat elit, vitae sollicitudin neque. Donec lacinia hendrerit scelerisque. Ut sit amet lectus sit amet turpis viverra venenatis sit amet at turpis. Suspendisse efficitur est in rhoncus hendrerit. Quisque ipsum augue, venenatis a mauris feugiat, feugiat accumsan odio. Curabitur nibh justo, malesuada eu magna eget, tempus dictum ante. Vestibulum et rutrum augue. Aliquam consequat scelerisque libero ut ornare.
+
+Nunc non malesuada dolor, tincidunt fermentum nisl. Donec semper interdum neque a viverra. Sed eu accumsan felis. Suspendisse pharetra egestas dignissim. Integer nisl libero, lobortis eget sem vitae, interdum scelerisque tortor. Sed interdum aliquet mi sit amet varius. Phasellus iaculis fringilla justo non efficitur. Vestibulum elementum porttitor vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi tempor eros id risus ullamcorper, nec convallis augue pellentesque. Fusce molestie blandit dapibus. Nulla facilisi. Pellentesque in mattis nibh, sed sodales dui. Ut cursus nulla ut dui fermentum sagittis at et felis. Nunc ac lorem bibendum, viverra urna ut, pulvinar est. Aenean suscipit, erat sit amet efficitur placerat, lorem ex auctor purus, vel aliquam tellus velit ac ex.</p>
+  <img src="http://placekitten.com/600/400">
+
+</main>
+<aside class="sidebar">Sidebar</aside>
+<footer class="footer">Footer</footer>
+<!-- partial -->
+  
+</body>
+</html>
+
+	<body><h1>Photography</h1></body>
+		<img src="../images/bway.jpg"width="250" height="300"><br>
+		<hr>
+		<img src="../images/canal.jpg"width="250" height="300"><br>
+		<hr>
+		<img src="../images/vegas_sky2.jpg"width="250" height="100">
+
+
+		<hr>
